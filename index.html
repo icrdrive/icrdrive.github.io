@@ -213,16 +213,56 @@
         </div>
       </div>
     </section>
+    
 
     <section class="hero is-small is-light">
       <div class="hero-body">
         <div class="container">
           <h2 class="title is-3">Key Findings</h2>
+
           <div class="content">
             <p>
-           On LangAuto-Tiny, goal-preserving perturbations such as paraphrase, ambiguity, and noise reduce LMDrive’s driving score by roughly 14–15 points, while misleading instructions cause much larger drops for both LMDrive and BEVDriver. On the full LangAuto benchmark, ambiguity and misleading instructions remain consistently harmful, and route completion is the dominant failure mode.
-         </p>
+              Instruction variations significantly degrade driving performance. 
+              On LangAuto-Tiny, goal-preserving perturbations (paraphrase, ambiguity, noise) reduce LMDrive’s driving score by ~14–15 points, 
+              while misleading instructions cause catastrophic drops across both LMDrive and BEVDriver. 
+              On the full LangAuto benchmark, ambiguity and misleading instructions remain consistently harmful, 
+              with route completion as the dominant failure mode.
+            </p>
           </div>
+
+          <div class="has-text-centered" style="margin-top: 30px;">
+            <img src="static/images/results.png" alt="Driving score degradation results" style="max-width: 100%; height: auto;">
+          </div>
+
+          <p class="has-text-centered" style="margin-top: 10px;">
+            Driving score degradation under counterfactual instruction variations for LMDrive and BEVDriver.
+          </p>
+
+        </div>
+      </div>
+    </section>    <section class="hero is-small is-light">
+      <div class="hero-body">
+        <div class="container">
+          <h2 class="title is-3">Key Findings</h2>
+
+          <div class="content">
+            <p>
+              Instruction variations significantly degrade driving performance. 
+              On LangAuto-Tiny, goal-preserving perturbations (paraphrase, ambiguity, noise) reduce LMDrive’s driving score by ~14–15 points, 
+              while misleading instructions cause catastrophic drops across both LMDrive and BEVDriver. 
+              On the full LangAuto benchmark, ambiguity and misleading instructions remain consistently harmful, 
+              with route completion as the dominant failure mode.
+            </p>
+          </div>
+
+          <div class="has-text-centered" style="margin-top: 30px;">
+            <img src="static/images/results_two_panel.png" alt="Driving score degradation results" style="max-width: 100%; height: auto;">
+          </div>
+
+          <p class="has-text-centered" style="margin-top: 10px;">
+            Driving score degradation under counterfactual instruction variations for LMDrive and BEVDriver.
+          </p>
+
         </div>
       </div>
     </section>
